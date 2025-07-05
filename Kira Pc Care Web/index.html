@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kira PC Care | Mantenimiento Tecnológico</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: #0a0a0a;
+      color: #fff;
+    }
+    header {
+      background: #111;
+      padding: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    header img {
+      height: 80px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      color: #00ff99;
+    }
+    section.hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(to right, #000, #0c2a2a);
+    }
+    section.hero h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+    section.hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: auto;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      margin-top: 2.5rem;
+      padding: 1rem 2rem;
+      background: #00ff99;
+      color: #000;
+      border: none;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    section {
+      padding: 3rem 2rem;
+    }
+    section h3 {
+      font-size: 1.8rem;
+      color: #00ff99;
+      margin-bottom: 1.5rem;
+    }
+    .price-card {
+      background: #222;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      border-left: 5px solid #00ff99;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 8px;
+      border: 2px solid #00ff99;
+    }
+    .review-card {
+      background: #1a1a1a;
+      padding: 1rem;
+      border-left: 4px solid #00ff99;
+      margin-bottom: 1rem;
+      border-radius: 6px;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .feature {
+      flex: 1 1 200px;
+      background: #1e1e1e;
+      padding: 1rem;
+      border-radius: 8px;
+      border: 1px solid #00ff99;
+    }
+    .video-section iframe {
+      width: 100%;
+      max-width: 600px;
+      height: 315px;
+      border: none;
+      border-radius: 10px;
+    }
+    footer {
+      background: #111;
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #00ff99;
+      color: #000;
+      padding: 10px 15px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 0 10px #00ff99;
+      z-index: 1000;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 400px;
+      margin-top: 1rem;
+    }
+    input, textarea, button {
+      padding: 0.8rem;
+      border: none;
+      border-radius: 6px;
+      font-family: inherit;
+    }
+    textarea { resize: vertical; }
+    button {
+      background-color: #00ff99;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="icono.png" alt="Kira PC Care Logo" />
+    <h1>KIRA PC CARE</h1>
+  </header>
+
+  <section class="hero">
+    <h2>Mantenimiento preventivo profesional</h2>
+    <p>Limpieza, cambio de pasta térmica premium, revisión completa del sistema. Servicio en taller o recolección a domicilio en Chihuahua.</p>
+    <a class="btn" href="https://wa.me/5216142738302" target="_blank">Agendar por WhatsApp</a>
+  </section>
+
+  <section>
+    <h3>¿Quién está detrás de Kira PC Care?</h3>
+    <p>👋 Hola, soy Ricardo, técnico especializado en mantenimiento preventivo de PC y laptops. Con atención personalizada, trato cada equipo como si fuera mío. Más de 10 servicios realizados con reseñas 100% positivas.</p>
+  </section>
+
+  <section class="services">
+    <h3>Precios y Servicios</h3>
+    <div class="price-card">
+      <strong>Mantenimiento preventivo en taller:</strong> $300 – $400 MXN<br>
+      💻 Limpieza interna y externa<br>
+      ❄️ Cambio de pasta térmica premium<br>
+      🔧 Revisión completa de ventiladores y temperatura
+    </div>
+  </section>
+
+  <section>
+    <h3>¿Qué incluye el servicio?</h3>
+    <div class="features">
+      <div class="feature">🧼 Limpieza interna</div>
+      <div class="feature">❄️ Pasta térmica premium</div>
+      <div class="feature">🔍 Diagnóstico completo</div>
+      <div class="feature">💾 Opción de respaldo</div>
+      <div class="feature">🚗 Recolección y entrega disponibles</div>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <h3>Antes y Después</h3>
+    <p>Casos reales de computadoras atendidas por Kira PC Care:</p>
+    <div class="images">
+      <img src="antes1.jpg" alt="Antes 1">
+      <img src="despues1.jpg" alt="Después 1">
+      <img src="antes2.jpg" alt="Antes 2">
+      <img src="despues2.jpg" alt="Después 2">
+    </div>
+  </section>
+
+  <section class="reviews">
+    <h3>Reseñas de Clientes</h3>
+    <div class="review-card">
+      ⭐⭐⭐⭐⭐<br>
+      <p>"Mi laptop estaba muy lenta y ahora parece nueva. Excelente servicio."</p>
+      <span>- Andrea L.</span>
+    </div>
+    <div class="review-card">
+      ⭐⭐⭐⭐⭐<br>
+      <p>"Súper confiable, llegó puntual y me explicó todo. Lo recomiendo."</p>
+      <span>- Jorge M.</span>
+    </div>
+    <div class="review-card">
+      ⭐⭐⭐⭐⭐<br>
+      <p>"Lo mejor es que no tuve que salir de casa. Gracias Kira PC Care."</p>
+      <span>- Luis D.</span>
+    </div>
+  </section>
+
+  <section>
+    <h3>Promoción de Lanzamiento</h3>
+    <div class="price-card">
+      💥 Julio 2025: Mantenimiento completo por solo <strong>$350</strong> MXN<br>
+      Incluye recolección gratuita y pasta térmica premium 🎁
+    </div>
+  </section>
+
+  <section>
+    <h3>Zona de cobertura</h3>
+    <p>📍 Atendemos Chihuahua capital y zonas cercanas como: Centro, Saucito, Punta Oriente, Riberas, Campanario, y más.</p>
+  </section>
+
+  <section>
+    <h3>¿Cada cuánto se recomienda el mantenimiento?</h3>
+    <p>🔁 Lo ideal es hacer mantenimiento preventivo cada 6 a 12 meses, dependiendo del uso y del entorno. Equipos gamer o de oficina deben recibir limpieza frecuente para evitar sobrecalentamientos y pérdida de rendimiento.</p>
+  </section>
+
+  <section class="video-section">
+    <h3>Así se ve el mantenimiento con Kira PC Care</h3>
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+    <p>Pronto subiré mi primer video con todo el proceso paso a paso 🔧💻</p>
+  </section>
+
+  <section>
+    <h3>Contáctame también por correo</h3>
+    <form>
+      <input type="text" placeholder="Tu nombre" required />
+      <input type="email" placeholder="Tu correo electrónico" required />
+      <textarea rows="4" placeholder="Describe tu equipo o problema"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 KIRA PC CARE - Chihuahua, México | WhatsApp: 614-273-8302
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/5216142738302" target="_blank">WhatsApp</a>
+</body>
+</html>
